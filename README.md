@@ -3,7 +3,7 @@
 
 ## Assignment
 
-* [assignment](/isprime/tutorial)
+* [assignment: Is this number Prime](/isprime/tutorial)
 
 ## Edit this project ![Build status badge](https://github.com/garcila/isprime/workflows/MakeCode/badge.svg)
 
