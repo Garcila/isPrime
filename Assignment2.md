@@ -51,7 +51,5 @@ Modify the code to allow the user enter a number between 100 and 2000 to test in
 
 
 
-#### Metadata (used for search, rendering)
 
-* for PXT/microbit
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
