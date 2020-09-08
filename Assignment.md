@@ -31,7 +31,6 @@ Get comfortable modifying existing code
 ## Step 1 Find if the number you entered is Prime
 ### Starter Project
 You are provided with working code that determines if a random generated number is Prime 🙂 or not 😞. 
-
 #### You don't need to change the code in the ``||basic.isPrime||`` function
 
 ## Step 2
