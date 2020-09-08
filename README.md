@@ -1,9 +1,7 @@
+## Assignments
 
-> Open this page at [https://garcila.github.io/isprime/](https://garcila.github.io/isprime/)
-
-## Assignment
-
-* [Start your assignment](https://makecode.microbit.org/#tutorial:github:garcila/isprime/Assignment)
+* [Assignment 1](https://makecode.microbit.org/#tutorial:github:garcila/isprime/Assignment)
+* [Assignment 2](https://makecode.microbit.org/#tutorial:github:garcila/isprime/Assignment)
 
 ## Edit this project ![Build status badge](https://github.com/garcila/isprime/workflows/MakeCode/badge.svg)
 
@@ -13,12 +11,6 @@ To edit this repository in MakeCode.
 * click on **Import** then click on **Import URL**
 * paste **https://github.com/garcila/isprime** and click import
 
-## Blocks preview
-
-This image shows the blocks code from the last commit in master.
-This image may take a few minutes to refresh.
-
-![A rendered view of the blocks](https://github.com/garcila/isprime/raw/master/.github/makecode/blocks.png)
 
 #### Metadata (used for search, rendering)
 

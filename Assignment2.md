@@ -44,27 +44,9 @@ The current code uses the ``||input.shake||`` function to:
 
 ## Step 3
 ### Your task
-Modify the code to allow the user enter a number to test instead of the random number used by the ``||input.shake||`` function
-
+Modify the code to allow the user enter a number between 100 and 2000 to test instead of the random number used by the ``||input.shake||`` function
+ 
 ## Step 4
-### Tens
-- 1  Create a variable ``||let.tens||`` that starts at 0 and increases by 10, each time the button ``||input.Button.A||`` is pressed.
-
-- 2 Display the current value of the ``||let.tens||`` on the screen.
-
- 
-## Step 5
-### Ones
-- 1 Create a variable ``||let.ones||`` that starts at 0 and increases by 1, each time the button ``||input.Button.B||`` is pressed.
-
-- 2 Display the current value of the ``||let.tens||`` + ``||let.ones||`` on the screen. 
- 
- 
-## Step 6
-### Get The Result
-When the buttons ``||input.Button.A+B||`` are pressed run the ``||basic.IsPrime||`` function. 
- 
-## Step 7
 ### You are done, try it on a Micro:Bit!
 
 
