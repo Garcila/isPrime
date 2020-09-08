@@ -32,6 +32,8 @@ Add code to allow the user to enter a specific number
 ### Objective
 In this excersice you will add functionality to the provided code, by allowing the user give a number to the Micro:Bit, and have it determine if the number is Prime 🙂, or not 😞
 
+### 🙂 You don't need to change the code in the ``||basic.isPrime||`` function
+
 ## Step 2
 ### Current Code
 The current code uses the ``||input.shake||`` function to:
@@ -50,28 +52,24 @@ input.onGesture(Gesture.Shake, function () {
 ```
 
 ## Step 3
-### 🙂 You don't need to change the code in the ``||basic.isPrime||`` function
-
-## Step 4
 ### Tens
 - 1  Create a variable ``||let.tens||`` that starts at 0 and increases by 10, each time the button ``||input.Button.A||`` is pressed.
 
 - 2 Display the current value of the ``||let.tens||`` on the screen.
 
  
-## Step 5
+## Step 4
 ### Ones
 - 1 Create a variable ``||let.ones||`` that starts at 0 and increases by 1, each time the button ``||input.Button.B||`` is pressed.
 
 - 2 Display the current value of the ``||let.tens||`` + ``||let.ones||`` on the screen. 
  
  
-## Step 6
+## Step 5
 ### Get The Result
 When the buttons ``||input.Button.A+B||`` are pressed run the ``||basic.IsPrime||`` function. 
  
-## Step 7
+## Step 6
 ### You are done, try it on a Micro:Bit!
 
-* for PXT/microbit
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
