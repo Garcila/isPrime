@@ -1,7 +1,6 @@
 let count = 0
 let numberToCheck = 0
 function isPrime (num: number) {
-    basic.clearScreen()
     if (num < 3) {
         basic.showIcon(IconNames.Sad)
         return false
@@ -18,6 +17,7 @@ function isPrime (num: number) {
     return true
 }
 input.onGesture(Gesture.Shake, function () {
+    basic.clearScreen()
     numberToCheck = randint(0, 1000)
     basic.showNumber(numberToCheck)
     isPrime(numberToCheck)

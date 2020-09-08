@@ -1,13 +1,41 @@
+```template
+let numberToCheck = 0
+let count = 0
+function isPrime (num: number) {
+    if (num < 3) {
+        basic.showIcon(IconNames.Sad)
+        return false
+    }
+    count = 2
+    while (count * count <= num) {
+        if (num % count == 0 || num % (count + 2) == 0) {
+            basic.showIcon(IconNames.Sad)
+            return false
+        }
+        count += 1
+    }
+    basic.showIcon(IconNames.Happy)
+    return true
+}
+input.onGesture(Gesture.Shake, function () {
+    basic.clearScreen()
+    numberToCheck = randint(0, 1000)
+    basic.showNumber(numberToCheck)
+    isPrime(numberToCheck)
+})
+```
+
 # Is it Prime
 Add code to allow the user to enter a specific number
 
 ## Step 1 Find if the number you entered is Prime
 ### Objective
-In this excersice you will add functionality to the provided provide a number to the Micro:Bit, and have it determine if the number is Prime 🙂, or not 😞
+In this excersice you will add functionality to the provided code, by allowing the user give a number to the Micro:Bit, and have it determine if the number is Prime 🙂, or not 😞
 
 ## Step 2
 ### Current Code
 The current code uses the ``||input.shake||`` function to:
+- clear the screen
 - generate a random number
 - display the number on the screen
 - run a function to determine if the number is Prime or not
