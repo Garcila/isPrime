@@ -26,7 +26,7 @@ input.onGesture(Gesture.Shake, function () {
 ```
 
 # Is it Prime
-Add code to allow the user to enter a specific number
+Get comfortable modifying existing code
 
 ## Step 1 Find if the number you entered is Prime
 ### Objective
